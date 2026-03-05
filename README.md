@@ -431,6 +431,5 @@ MIT License - Educational/Assignment Use
 
 ---
 
-**Assignment Completed By**: [Your Name]  
-**Submission Date**: March 4, 2026  
-**Demo Video**: [Loom link here]
+**Assignment Completed By**: [Nishant Kumar]  
+**Submission Date**: March 4, 2026
