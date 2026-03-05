@@ -1,0 +1,50 @@
+# Clara Answers Automation Pipeline
+# Git Ignore File
+
+# Environment and secrets
+.env
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Outputs and data
+outputs/
+sample_data/*.mp3
+sample_data/*.wav
+*.wav
+*.mp3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# n8n data
+.n8n/

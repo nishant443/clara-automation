@@ -1,0 +1,74 @@
+Demo Call Transcript - Acme Fire Protection Services
+
+Date: March 1, 2026
+Duration: 18 minutes
+Participants: John Mitchell (Owner, Acme Fire Protection), Sarah Chen (Clara Sales)
+
+---
+
+Sarah: Hi John, thanks for taking the time to meet with me today. I understand you're looking for a solution to handle your inbound calls?
+
+John: Yes, that's right. We're a fire protection company here in Boston. We do sprinkler installation, fire alarm systems, inspections, that kind of thing. The problem is we're getting swamped with calls, especially after hours and on weekends.
+
+Sarah: I see. What happens when calls come in after hours currently?
+
+John: Well, right now they just go to voicemail. And honestly, a lot of times people don't leave messages. Or if they do, we don't see them until Monday morning. That's a problem because some of these are emergency situations - like a sprinkler head broke and water's flooding a building, or a fire alarm went off and they need help.
+
+Sarah: That sounds frustrating. How many calls would you say you're missing?
+
+John: I'd estimate maybe 20-30 calls a week after hours. During business hours we're pretty good - my office manager Diane answers most calls. But she's overwhelmed too. We're open Monday through Friday, 8 AM to 5 PM.
+
+Sarah: Got it. And when it is an emergency, what needs to happen?
+
+John: If it's a real emergency - like water flowing, alarm going off, no water pressure in the system - we need to get one of our on-call techs out there immediately. I have three techs who rotate on-call duty.
+
+Sarah: Okay. And what about non-emergency calls?
+
+John: Those can wait until the next business day. Things like "I need an inspection scheduled" or "Can you give me a quote for a new system?" - those are fine to handle during normal hours.
+
+Sarah: That makes sense. What else should I know about your business?
+
+John: Well, we work with a lot of commercial clients - office buildings, warehouses, manufacturing facilities. We also do some residential work but that's maybe 20% of our business. 
+
+We're integrated with ServiceTrade for our job management. That's where all our work orders go. But honestly, the integration is a pain sometimes. We don't want Clara creating jobs automatically - we want to review things first.
+
+Sarah: Understood. I'm going to have Clara introduce herself now so you can experience how she handles calls. This is just a demo agent, but it'll give you a sense of the conversation flow.
+
+[Demo interaction with Clara - 5 minutes]
+
+John: Wow, that's actually really good. She sounds natural. I like how she asks for name and number right away.
+
+Sarah: Exactly. And Clara can handle the transfer to your on-call tech if it's an emergency. If the transfer fails for some reason - like if they don't pick up - Clara will take a detailed message and make sure someone follows up.
+
+John: That's important. Sometimes our guys are on a job site and can't grab their phone immediately.
+
+Sarah: Absolutely. So let me ask - what would make this successful for you?
+
+John: If we could stop missing emergency calls, that would be huge. Every missed call is potential revenue lost, not to mention it looks bad for our reputation. And if Clara could screen out the non-emergencies and just collect their information so Diane can call them back during business hours, that would save her a ton of time.
+
+Sarah: Perfect. That's exactly what Clara does best. 
+
+John: The only concern I have is making sure Clara knows what counts as an emergency. Like, a low water pressure call isn't always an emergency - depends on the context. And we definitely don't want her creating tickets in ServiceTrade without us reviewing them first.
+
+Sarah: We'll make sure that's configured correctly during onboarding. We'll document all your emergency definitions and routing rules precisely.
+
+John: Okay, good. What's the next step?
+
+Sarah: If you'd like to move forward, the next step is a purchase decision. Once you're signed up, we'll schedule an onboarding call where we nail down all the specifics - exact business hours, timezone, emergency contact numbers, the specific language you want Clara to use, all of that.
+
+John: Alright, this looks promising. Let me talk to my business partner and I'll get back to you by end of week.
+
+Sarah: Sounds great! I'll send over some pricing information and a proposal. Thanks so much for your time today, John.
+
+John: Thank you. Talk soon.
+
+---
+
+Notes from Sarah:
+- Strong fit for Clara
+- Main pain point: missing after-hours emergency calls
+- Business hours: Mon-Fri 8-5 (didn't confirm timezone but likely ET based in Boston)
+- Emergency routing needed to on-call techs
+- ServiceTrade integration exists but doesn't want auto-job creation
+- Client is detail-oriented, will need clear emergency definitions
+- Positive demo reception

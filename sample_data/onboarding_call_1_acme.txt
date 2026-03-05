@@ -1,0 +1,129 @@
+Onboarding Call Transcript - Acme Fire Protection Services
+
+Date: March 8, 2026
+Duration: 32 minutes
+Participants: John Mitchell (Owner), Diane Lopez (Office Manager), Sarah Chen (Clara Onboarding)
+
+---
+
+Sarah: Hi John, hi Diane! Great to have you both here. Congratulations on signing up for Clara. Today we're going to nail down all the operational details so we can get your agent configured perfectly.
+
+John: Sounds good. Diane handles most of our day-to-day call operations, so I wanted her on this call.
+
+Diane: Happy to be here. I'm excited to get some help!
+
+Sarah: Perfect. Let's start with your business hours. John, last time you mentioned Monday through Friday, 8 to 5. Is that correct?
+
+John: Yes, that's right. 8 AM to 5 PM Eastern Time. We're closed on weekends and major holidays.
+
+Sarah: Great, Eastern Time. And when Clara answers after hours, should she mention your specific hours?
+
+Diane: Yes, please. "We're open Monday through Friday, 8 AM to 5 PM Eastern Time." That's helpful for callers to know.
+
+Sarah: Perfect. Now let's talk about emergency definitions. What exactly constitutes an emergency that needs immediate attention?
+
+John: Okay, so emergency situations are:
+- Any sprinkler head actively leaking or broken with water flowing
+- Fire alarm system triggered and going off
+- Complete loss of water pressure in a sprinkler system
+- Backflow preventer failure
+- Any situation where water is actively damaging property
+
+Diane: We should also include if a fire marshal called and there's an inspection failure that needs immediate correction. That's rare but it happens.
+
+John: Good point, yes. Add that to the list.
+
+Sarah: Got it. And what about things that sound urgent but aren't actually emergencies?
+
+John: Low water pressure, but not complete loss - that can wait
+Alarm system not functioning but not actively going off - next business day is fine
+Routine inspection scheduling - definitely not an emergency
+Broken sprinkler head that's NOT currently leaking - can wait
+
+Diane: Also, questions about billing or service history - those always wait for business hours.
+
+Sarah: Excellent. This is really helpful. Now, for actual emergencies, who should Clara transfer to?
+
+John: We have an on-call rotation. The main emergency number is 617-555-9999. That's our emergency dispatch line and it goes to whoever is on call that day.
+
+Diane: And that number is answered 24/7.
+
+Sarah: Perfect. What should Clara do if she tries to transfer but no one picks up after, let's say 60 seconds?
+
+John: Hmm. Try it twice - so two attempts. If both fail, she should apologize, assure the caller that we received their information and someone will call them back within 15 minutes. Then she needs to immediately notify our dispatch email: emergency@acmefire.com.
+
+Diane: Actually, make it 30 seconds per attempt, not 60. Our guys are usually pretty quick to answer.
+
+John: Yeah, 30 seconds is better.
+
+Sarah: Understood. Two attempts at 30 seconds each. What about non-emergencies after hours?
+
+Diane: For those, Clara should just collect their name, phone number, and what they need. Tell them someone will call back when we open the next business day.
+
+Sarah: And during business hours, where should calls go?
+
+Diane: They should come to me at the main office line: 617-555-1234. If I don't answer after 45 seconds, Clara should take a message.
+
+Sarah: Great. Now, let's talk about the ServiceTrade integration. I know you mentioned you didn't want automatic job creation.
+
+John: That's right. We don't want Clara creating work orders in ServiceTrade automatically. We want to review every call and decide if it becomes a job. Too many times we've had issues with duplicate jobs or incorrect job types.
+
+Sarah: Understood. So Clara will just collect information, no ServiceTrade automation. Are there any other constraints or special rules we should know about?
+
+John: Yes - never, under any circumstances, create a sprinkler job in ServiceTrade. We have a specific internal process for those because of liability and licensing requirements.
+
+Diane: Also, Wednesday afternoons after 1 PM, don't try to transfer to the office. That's when John and I do our weekly planning meeting and we don't answer phones. Just take messages.
+
+John: Oh, good one. Yeah, Wednesday afternoon is blackout time.
+
+Sarah: Got it. Wednesday after 1 PM, message-only mode. Any other special times?
+
+Diane: Not that I can think of.
+
+Sarah: Okay. Let me confirm your office address for emergency calls where Clara needs to ask for the service location.
+
+Diane: Our office is at 45 Industrial Park Road, Boston, MA 02128.
+
+Sarah: Thank you. Now, is there any specific language or phrasing you want Clara to use? Anything she should definitely say or definitely not say?
+
+John: I like what we heard in the demo. Professional but friendly. Make sure she identifies herself as an AI assistant if anyone asks directly - we don't want to mislead people.
+
+Diane: And she should always confirm the callback number. I can't tell you how many times people give us the wrong number.
+
+Sarah: Absolutely. Clara will always repeat the number back to confirm. Anything else?
+
+John: I think that covers it. When can we go live?
+
+Sarah: I'll have your agent configured within 48 hours. I'll send you the configuration document to review, and then we can schedule a test call before going fully live.
+
+Diane: Perfect. This is going to be so helpful.
+
+John: Thanks, Sarah. Looking forward to it.
+
+---
+
+Configuration Notes:
+- Business Hours: Mon-Fri 8 AM-5 PM ET
+- Timezone: America/New_York (Eastern Time)
+- Office: 617-555-1234 (Diane, 45 sec timeout)
+- Emergency: 617-555-9999 (24/7 on-call, 30 sec timeout, 2 attempts)
+- Wednesday PM blocked (after 1 PM)
+- No ServiceTrade auto-creation
+- Never create sprinkler jobs in ServiceTrade
+- Office address: 45 Industrial Park Road, Boston, MA 02128
+- Emergency email notify: emergency@acmefire.com
+
+Emergency Definitions (explicit):
+1. Sprinkler head leaking/broken with water flowing
+2. Fire alarm triggered and actively going off
+3. Complete loss of water pressure in sprinkler system
+4. Backflow preventer failure
+5. Water actively damaging property
+6. Fire marshal inspection failure requiring immediate correction
+
+Non-Emergencies (can wait):
+1. Low water pressure (not complete loss)
+2. Alarm system malfunction (not actively going off)
+3. Broken sprinkler head NOT leaking
+4. Routine inspection scheduling
+5. Billing/service history questions

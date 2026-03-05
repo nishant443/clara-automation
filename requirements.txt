@@ -1,0 +1,16 @@
+# Clara Answers Automation Pipeline
+# Python Dependencies
+
+# Core Dependencies (Required)
+anthropic>=0.18.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Optional: Audio Transcription
+# Uncomment if you have audio files instead of transcripts:
+# openai-whisper>=20231117
+# ffmpeg-python>=0.2.0
+
+# Optional: For enhanced features
+# requests>=2.31.0
+# aiohttp>=3.9.0
